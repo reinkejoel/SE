@@ -9,11 +9,9 @@ class A22t {
 		String[][] reihenfolge = new String[][]{{ "A" , "C" }, { "C", "D" }, { "B", "C" }};
 		A22 r01 = new A22(reihenfolge);
 		String []  s01 = new String[]{ "A" , "B", "C", "D" };
-		String []  s02 = new String[]{ "C" , "D" };
-		String []  s03 = new String[]{ "B" , "A", "C", "D" };
+		String []  s02 = new String[]{ "B" , "A", "C", "D" };
 		assertEquals(true,r01.isWellSorted(s01));
 		assertEquals(true,r01.isWellSorted(s02));
-		assertEquals(true,r01.isWellSorted(s03));
 	}
 	
 	@Test
