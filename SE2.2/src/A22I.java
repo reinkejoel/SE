@@ -1,5 +1,5 @@
 
 public interface A22I {
-	String[][] dependencies = new String[1][2];
+	public A22I(String[][] pDependencies);
 	public boolean isWellSorted(String[] Sequence);
 }
